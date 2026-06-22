@@ -1,0 +1,29 @@
+
+export class Browser {
+    browserName: string;
+    browserVersion: number;
+
+
+    constructor(browserName:string, browserVersion: number){
+            this.browserName=browserName;
+            this.browserVersion=browserVersion;
+
+    }
+
+    openURL():void{
+
+        console.log("open Browser URL")
+    }
+
+    closeURL():void{
+
+    console.log("close Browser URL");
+    }
+
+
+    navigateBack(){
+
+           console.log("navigate back to Browser URL")
+    }
+
+}
